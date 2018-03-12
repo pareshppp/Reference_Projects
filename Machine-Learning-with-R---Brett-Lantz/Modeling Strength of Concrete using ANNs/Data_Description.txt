@@ -1,0 +1,32 @@
+Background:
+
+In the field of engineering, it is crucial to have accurate estimates of the performance
+of building materials. These estimates are required in order to develop safety
+guidelines governing the materials used in the construction of buildings, bridges,
+and roadways.
+
+Estimating the strength of concrete is a challenge of particular interest. Although it is
+used in nearly every construction project, concrete performance varies greatly due to
+a wide variety of ingredients that interact in complex ways. As a result, it is difficult
+to accurately predict the strength of the final product. A model that could reliably
+predict concrete strength given a listing of the composition of the input materials
+could result in safer construction practices.
+
+
+
+Collecting data:
+
+For this analysis, we will utilize data on the compressive strength of concrete donated
+to the UCI Machine Learning Data Repository ( http://archive.ics.uci.edu/ml )
+by I-Cheng Yeh. As he found success using neural networks to model these data, we
+will attempt to replicate his work using a simple neural network model in R.
+
+
+Description:
+
+According to the website, the concrete dataset contains 1,030 examples of concrete
+with eight features describing the components used in the mixture. These features
+are thought to be related to the final compressive strength and they include the
+amount (in kilograms per cubic meter) of cement, slag, ash, water, superplasticizer,
+coarse aggregate, and fine aggregate used in the product in addition to the aging
+time (measured in days).

@@ -1,0 +1,29 @@
+Background:
+
+Market basket analysis of transactional data from a grocery store.
+
+
+Data Collection:
+
+Our market basket analysis will utilize the purchase data collected from one month of
+operation at a real-world grocery store.
+
+The dataset used here was adapted from the Groceries dataset in
+the arules R package. For more information, see: Hahsler M, Hornik
+K, Reutterer T. Implications of probabilistic data modeling for mining
+association rules.
+
+
+Attributes:
+
+The data contains 9,835 transactions or about
+327 transactions per day (roughly 30 transactions per hour in a 12-hour business day),
+suggesting that the retailer is not particularly large, nor is it particularly small.
+
+The typical grocery store offers a huge variety of items. There might be five brands of
+milk, a dozen different types of laundry detergent, and three brands of coffee. Given
+the moderate size of the retailer, we will assume that they are not terribly concerned
+with finding rules that apply only to a specific brand of milk or detergent. With
+this in mind, all brand names can be removed from the purchases. This reduces the
+number of groceries to a more manageable 169 types, using broad categories such as
+chicken, frozen meals, margarine, and soda.

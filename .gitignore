@@ -2,3 +2,5 @@
 log/
 Model_Files/
 Data_Files/
+.RData
+.RHistory
