@@ -4,3 +4,9 @@ Model_Files/
 Data_Files/
 .RData
 .RHistory
+pyimagesearch/Object-NotObject/images/
+pyimagesearch/Object-NotObject/examples/
+.vscode
+word2vec-nlp-tutorial/
+300features_40minwords_10context
+__pycache__
