@@ -10,3 +10,11 @@ pyimagesearch/Object-NotObject/examples/
 word2vec-nlp-tutorial/
 300features_40minwords_10context
 __pycache__
+*.db
+test.from
+test.to
+train.from
+train.to
+reddit_data/
+SentDex/TensorFlow-Object-Detection-API/models/
+SentDex/Unconventional-Neural-Networks/char-rnn-tensorflow-master/
